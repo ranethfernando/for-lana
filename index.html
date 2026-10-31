@@ -1,3 +1,8 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>For 정인</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -5,6 +10,8 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@600&text=%EC%A0%95%EC%9D%B8&display=swap">
 <style>
 /* Layout: full-screen particle canvas (firework → flower → heart); heart settles in the top band, message sits below it */
+[hidden] { display: none !important; }
+body { margin: 0; }
 :root {
   color-scheme: dark;
   --sky: #090612;
@@ -107,6 +114,8 @@ body {
   .big .w, .big .w.in, .small, .small.in { transition: none; filter: none; }
 }
 </style>
+</head>
+<body>
 
 <canvas id="sky" aria-hidden="true"></canvas>
 <div class="vignette" aria-hidden="true"></div>
@@ -378,3 +387,6 @@ body {
   });
 })();
 </script>
+
+</body>
+</html>
